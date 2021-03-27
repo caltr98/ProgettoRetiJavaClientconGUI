@@ -22,6 +22,7 @@ public class   ChatThread extends Thread {
     private String ProjectName;
     private String userName;
     boolean ChatThreadStopped;
+    private static String calo = "ciao calò";
 
     private int mexNum;//numera i messaggi inviati da questo utente in modo da accorgersi di messaggi arrivati out of order
     private InetSocketAddress adrr;//new InetSocketAddress(chatAddress,chatPort);
